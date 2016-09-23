@@ -1,3 +1,10 @@
+# [Site tutorial de lógica de programação e introdução a programação web desenvolvimento]
+
+Site criado para apresentação do conteúdo do curso de lógica de programação e introdução a Javascript do PET-BSI(Unesp Bauru).
+
+## Bootstrap e Freelancer
+Para construção do site utilizou-se um template de Bootstrap - Freelancer (está disponível abaixo).
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
