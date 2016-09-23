@@ -7,8 +7,8 @@ Para construção do site utilizou-se um template de Bootstrap - Freelancer (est
 
 
 ## Colaboração
-https://github.com/alessandrasasaki - Alessandra Sasaki
-https://github.com/ksetoue - Karoline Kimiko
+* https://github.com/alessandrasasaki - Alessandra Sasaki
+* https://github.com/ksetoue - Karoline Kimiko
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
