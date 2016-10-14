@@ -13,10 +13,10 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Custom CSS -->
 	<link href="css/freelancer.css" rel="stylesheet">
+	<link href="css/semana-minicurso.css" rel="stylesheet">
 	<!-- Custom Fonts -->
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Rammetto+One" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,7 +70,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<img class="img-responsive" src="img/profile.png" alt="">
+					<img class="img-responsive" src="img/google-trends.svg" alt="" style="height: 300px;">
 					<div class="intro-text">
 						<span class="name">Minicursos PET-BSI - Tecnologias Emergentes</span>
 						<hr class="star-light">
@@ -98,8 +98,11 @@
 								<i class="fa fa-search-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="img/logica.png" class="img-responsive" alt="">
-						<h2 class="portifolioKey">Unity</h2>
+						<div class="key">
+							<div class="key-content">
+								<h2 class="portifolioKey" id="unity-content">Unity</h2>
+							</div>
+						</div>
 					</a>
 				</div>
 
@@ -110,8 +113,11 @@
 								<i class="fa fa-search-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="img/algoritmo.png" class="img-responsive" alt="">
-						<h2 class="portifolioKey">Unity e Realidade Aumentada</h2>
+						<div class="key">
+							<div class="key-content">
+								<h2 class="portifolioKey" id="ra-content">Unity e Realidade Aumentada</h2>
+							</div>
+						</div>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -121,8 +127,11 @@
 								<i class="fa fa-search-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="img/programacao.png" class="img-responsive" alt="">
-						<h2 class="portifolioKey">Unity e Realidade Virtual</h2>
+						<div class="key">
+							<div class="key-content">
+								<h2 class="portifolioKey" id="rv-content">Unity e Realidade Virtual</h2>
+							</div>
+						</div>
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item">
@@ -132,15 +141,122 @@
 								<i class="fa fa-search-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="img/linguagem.png" class="img-responsive" alt="">
-						<h2 class="portifolioKey">Internet das Coisas</h2>
+						<div class="key">
+							<div class="key-content">
+								<h2 class="portifolioKey" id="iot-content">Internet das Coisas</h2>
+							</div>
+						</div>
 					</a>
 				</div>
-
 			</div> <!-- row -->
 		</div>
 	</section>
 
+	<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="portifolioUnity" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			Hello
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Lógica</h2>
+							<hr class="star-primary">
+							<img src="img/lampada.png" class="img-responsive img-centered" alt="">
+							   <!--Texto formatado -->
+								<p>
+
+									É a organização coerente e estruturada do
+									pensamento, é o raciocínio ordenado; a
+									capacidade de relacionar as ideias de forma
+									consciente e encadeada do que se desejar
+									expor, expressar com palavras ou não; a
+									capacidade racional e clara de expressar as
+									ideias ou algo de forma que se compreenda
+									sem dar vazão à ambiguidade. Raciocínio
+									lógico; a harmonia entre o pensamento e a
+									ação. Utilizamos a construção lógica em
+									nosso dia-a-dia para fazer inferências
+								</p>
+								 <!--Texto gerado e formatado -->
+								<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Links</h2>
+							<hr class="star-primary">
+							<img src="img/alerta.png" class="img-responsive img-centered" alt="">
+							<!-- Texto formatado -->
+							<p><strong>Links interessantes</strong><br>
+							•	<u>Apostila de lógica de programação</u><br>
+							http://www.ouropreto.ifmg.edu.br/lp/apostilas/apostila-logica-de-programacao<br>
+							http://www.devmedia.com.br/apostilas-logica-de-programacao/765In<br>
+							http://online.k19.com.br/libraries<br>
+							https://www.caelum.com.br/apostila-html-css-javascript/<br>
+							http://www.netsoft.inf.br/aulas/5_SIN_Programacao_Web/Apostila_javaScript.pdf<br>
+
+							<br>• <u>Cursos online de linguagens de programação</u><br>
+							http://blog.ted.com/10-places-where-anyone-can-learn-to-code/<br>
+							http://www.w3schools.com/js/<br>
+							https://www.codeschool.com/<br>
+							https://www.codecademy.com/pt<br>
+							https://www.udemy.com/<br>
+							https://code.org/learn<br>
+							https://www.khanacademy.org/<br>
+
+							<br>• <u>Ferramentas para treinar lógica de programação</u><br>
+							https://scratch.mit.edu/<br>
+							https://code.org/learn<br>
+							http://www.thefoos.com/hour-of-code/<br>
+							http://monstercoding.com/#hour_of_code<br>
+
+							<br>• <u>Tira dúvidas e fóruns</u><br>
+							http://pt.stackoverflow.com/<br>
+							http://www.devmedia.com.br/<br>
+							http://www.w3schools.com/js/<br>
+
+							<br>• <u>Notícias sobre tecnologia</u><br>
+							https://tecnoblog.net/<br>
+
+							<br>• <u>Tutorial com Hello World de JavaScript e algumas referências</u><br>
+							https://www.caelum.com.br/apostila-html-css-javascript/<br>
+							http://tableless.github.io/iniciantes/manual/js/<br>
+							https://www.javascript.com/resources<br>
+
+						  </p>
+							<!-- Texto formatado -->
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- About Section -->
 	<section class="success" id="about">
@@ -721,6 +837,9 @@
 					<div class="col-lg-12">
 						Copyleft <span style="display:inline-block; transform: rotate(180deg);">&copy;</span> PET-BSI 2016
 					</div>
+					<div class="col-lg-12">
+						<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -733,114 +852,6 @@
 		</a>
 	</div>
 
-
-	<!-- Portfolio Modals -->
-	<div class="portfolio-modal modal fade" id="portifolioUnity" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			Hello
-		</div>
-	</div>
-
-	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Lógica</h2>
-							<hr class="star-primary">
-							<img src="img/lampada.png" class="img-responsive img-centered" alt="">
-							   <!--Texto formatado -->
-								<p>
-
-									É a organização coerente e estruturada do
-									pensamento, é o raciocínio ordenado; a
-									capacidade de relacionar as ideias de forma
-									consciente e encadeada do que se desejar
-									expor, expressar com palavras ou não; a
-									capacidade racional e clara de expressar as
-									ideias ou algo de forma que se compreenda
-									sem dar vazão à ambiguidade. Raciocínio
-									lógico; a harmonia entre o pensamento e a
-									ação. Utilizamos a construção lógica em
-									nosso dia-a-dia para fazer inferências
-								</p>
-								 <!--Texto gerado e formatado -->
-								<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-content">
-				<div class="close-modal" data-dismiss="modal">
-					<div class="lr">
-						<div class="rl">
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-lg-offset-2">
-							<div class="modal-body">
-								<h2>Links</h2>
-								<hr class="star-primary">
-								<img src="img/alerta.png" class="img-responsive img-centered" alt="">
-								<!-- Texto formatado -->
-								<p><strong>Links interessantes</strong><br>
-								•	<u>Apostila de lógica de programação</u><br>
-								http://www.ouropreto.ifmg.edu.br/lp/apostilas/apostila-logica-de-programacao<br>
-								http://www.devmedia.com.br/apostilas-logica-de-programacao/765In<br>
-								http://online.k19.com.br/libraries<br>
-								https://www.caelum.com.br/apostila-html-css-javascript/<br>
-								http://www.netsoft.inf.br/aulas/5_SIN_Programacao_Web/Apostila_javaScript.pdf<br>
-
-								<br>• <u>Cursos online de linguagens de programação</u><br>
-								http://blog.ted.com/10-places-where-anyone-can-learn-to-code/<br>
-								http://www.w3schools.com/js/<br>
-								https://www.codeschool.com/<br>
-								https://www.codecademy.com/pt<br>
-								https://www.udemy.com/<br>
-								https://code.org/learn<br>
-								https://www.khanacademy.org/<br>
-
-								<br>• <u>Ferramentas para treinar lógica de programação</u><br>
-								https://scratch.mit.edu/<br>
-								https://code.org/learn<br>
-								http://www.thefoos.com/hour-of-code/<br>
-								http://monstercoding.com/#hour_of_code<br>
-
-								<br>• <u>Tira dúvidas e fóruns</u><br>
-								http://pt.stackoverflow.com/<br>
-								http://www.devmedia.com.br/<br>
-								http://www.w3schools.com/js/<br>
-
-								<br>• <u>Notícias sobre tecnologia</u><br>
-								https://tecnoblog.net/<br>
-
-								<br>• <u>Tutorial com Hello World de JavaScript e algumas referências</u><br>
-								https://www.caelum.com.br/apostila-html-css-javascript/<br>
-								http://tableless.github.io/iniciantes/manual/js/<br>
-								https://www.javascript.com/resources<br>
-
-							  </p>
-								<!-- Texto formatado -->
-								<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 	<!-- jQuery -->
 	<script src="js/jquery.js"></script>

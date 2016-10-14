@@ -1,0 +1,34 @@
+a.portfolio-link{
+	text-decoration: none;
+}
+
+.key{
+
+}
+.key-content{
+}
+.portifolioKey{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 200px;
+	text-align: center;
+	font-family: 'Lato', 'Montserrat', sans-serif;
+}
+
+h2.portifolioKey#unity-content{
+	background-color: #2A81B8;
+	color: #FFF78C;
+}
+h2.portifolioKey#ra-content{
+	background-color: #E64A3C;
+	color: #FFF78C;
+}
+h2.portifolioKey#rv-content{
+	background-color: #33485C;
+	color: #E67D22;
+}
+h2.portifolioKey#iot-content{
+	background-color: #169C81;
+	color: #F0C311;
+}
