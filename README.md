@@ -1,14 +1,10 @@
-## Site tutorial de lógica de programação e introdução a programação web desenvolvimento
+## Site da Semana de Minicursos PET-BSI - Unesp Bauru - Setembro de 2016
 
-Site criado para apresentação do conteúdo do curso de lógica de programação e introdução a Javascript do PET-BSI(Unesp Bauru).
+Site criado para apresentação do conteúdo dos Minicursos de Tecnologias Emergentes do PET-BSI(Unesp Bauru).
 
 ## Bootstrap e Freelancer
 Para construção do site utilizou-se um template de Bootstrap - Freelancer (está disponível abaixo).
 
-
-## Colaboração
-* https://github.com/alessandrasasaki - Alessandra Sasaki
-* https://github.com/ksetoue - Karoline Kimiko
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
